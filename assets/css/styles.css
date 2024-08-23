@@ -9036,11 +9036,11 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-origin {
   padding: 0 24px 24px
 }
 
-.products-list[data-layout^=grid-] .product-card .product-card__availability,.products-list[data-layout^=grid-] .product-card .product-card__description,.products-list[data-layout^=grid-] .product-card .product-card__features-list {
+.products-list[data-layout^=grid-] .product-card .product-card__availability,.products-list[data-layout^=grid-] .product-card .product-card__description,.products-list[data-layout^=grid-] .product-card .product-card__features-list,.products-list[data-layout^=grid-] .product-card .product-card__notes-list {
   display: none
 }
 
-.products-list[data-layout^=grid-][data-with-features=true] .product-card .product-card__features-list {
+.products-list[data-layout^=grid-][data-with-features=true] .product-card .product-card__features-list,.products-list[data-layout^=grid-][data-with-notes=true] .product-card .product-card__notes-list {
   display: block
 }
 
