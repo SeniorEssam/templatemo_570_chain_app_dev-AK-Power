@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+
+  <title>Chain App Dev - App Landing Page HTML5 Template</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!--
+
+TemplateMo 570 Chain App Dev
+
+https://templatemo.com/tm-570-chain-app-dev
+
+-->
+
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/templatemo-chain-app-dev-rtl.css">
+  <link rel="stylesheet" href="assets/css/animated.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+
+  </style>
+</head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <img src="assets/images/logo.png" alt="Chain App Dev">
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="index.html#top" class="active">Home</a></li>
+              <li class="scroll-to-section"><a href="index.html#about">About</a></li>
+              <li class="scroll-to-section"><a href="index.html#services">Services</a></li>
+              <li class="scroll-to-section"><a href="shop-grid.html">Products</a></li>
+              <li class="scroll-to-section"><a href="index.html#vision">Mission &amp; Vision</a></li>
+              <li class="scroll-to-section"><a href="index.html#contact-us" class="">Contact Us</a></li>
+              <li>
+                <div class="gradient-button"><a id="modal_trigger" href="#modal"><i class="fa fa-sign-in-alt"></i> Sign
+                    In Now</a></div>
+              </li>
+            </ul>
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div id="modal" class="popupContainer" style="display:none;">
+    <div class="popupHeader">
+      <span class="header_title">Login</span>
+      <span class="modal_close"><i class="fa fa-times"></i></span>
+    </div>
+
+    <section class="popupBody">
+      <!-- Social Login -->
+      <div class="social_login">
+        <div class="">
+          <a href="#" class="social_box fb">
+            <span class="icon"><i class="fab fa-facebook"></i></span>
+            <span class="icon_title">Connect with Facebook</span>
+
+          </a>
+
+          <a href="#" class="social_box google">
+            <span class="icon"><i class="fab fa-google-plus"></i></span>
+            <span class="icon_title">Connect with Google</span>
+          </a>
+        </div>
+
+        <div class="centeredText">
+          <span>Or use your Email address</span>
+        </div>
+
+        <div class="action_btns">
+          <div class="one_half"><a href="#" id="login_form" class="btn">Login</a></div>
+          <div class="one_half last"><a href="#" id="register_form" class="btn">Sign up</a></div>
+        </div>
+      </div>
+
+      <!-- Username & Password Login form -->
+      <div class="user_login">
+        <form>
+          <label>Email / Username</label>
+          <input type="text" />
+          <br />
+
+          <label>Password</label>
+          <input type="password" />
+          <br />
+
+          <div class="checkbox">
+            <input id="remember" type="checkbox" />
+            <label for="remember">Remember me on this computer</label>
+          </div>
+
+          <div class="action_btns">
+            <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a>
+            </div>
+            <div class="one_half last"><a href="#" class="btn btn_red">Login</a></div>
+          </div>
+        </form>
+
+        <a href="#" class="forgot_password">Forgot password?</a>
+      </div>
+
+      <!-- Register Form -->
+      <div class="user_register">
+        <form>
+          <label>Full Name</label>
+          <input type="text" />
+          <br />
+
+          <label>Email Address</label>
+          <input type="email" />
+          <br />
+
+          <label>Password</label>
+          <input type="password" />
+          <br />
+
+          <div class="checkbox">
+            <input id="send_updates" type="checkbox" />
+            <label for="send_updates">Send me occasional email updates</label>
+          </div>
+
+          <div class="action_btns">
+            <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a>
+            </div>
+            <div class="one_half last"><a href="#" class="btn btn_red">Register</a></div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </div>
+
+  <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-6 align-self-center">
+              <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h2>Get The Latest App From App Stores</h2>
+                    <p>Chain App Dev is an app landing page HTML5 template based on Bootstrap v5.1.3 CSS layout provided
+                      by TemplateMo, a great website to download free CSS templates.</p>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="white-button  scroll-to-section">
+                      <a href="#contact">Free Quote <i class="fab fa-apple"></i></a>
+                    </div>
+                    <div class="white-button scroll-to-section mt-2">
+                      <a href="#contact">Free Quote <i class="fab fa-google-play"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                <img src="assets/images/panar.jpeg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="about" class="the-about">
+
+
+    <div class="container">
+      <div class="row m-5 text-center">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+            <h4>All What To Know <em>About Us</em> is here</h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="about-us__about about" id="about_slider" data-layout="horizontal" data-mobile-grid-columns="2">
+          <div class="owl-carousel owl-loaded owl-drag">
+            <div class="owl-stage-outer">
+              <div class="owl-stage" id="aboutdata" style="transform: translate3d(0px, 0px, 0px); width: 769px;">
+                <div class="owl-item active" style="width: 212px; margin-left: 17px;">
+                  <div class="about__item about">
+                    <div class="about__avatar">
+                      <img src="assets/images/OIG1.jpeg" style='height:304px;' alt="">
+                    </div>
+                    <span> </span>
+                    <div class="about__name "><em>our Team</em></div>
+                    <span> </span>
+                    <div class="about__position text-muted ">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eismod tempor incididunt ut labore et
+                      dolore magna.</div>
+                  </div>
+
+                </div>
+                <div class="owl-item active" style="width: 212px; margin-left: 17px;">
+                  <div class="about__item about">
+                    <div class="about__avatar">
+                      <img src="assets/images/OIG1.jpeg" style='height:304px;' alt="">
+                    </div>
+                    <span> </span>
+                    <div class="about__name m-2 text-center"><em>our Team</em></div>
+                    <span> </span>
+                    <div class="about__position text-muted m-2 text-center">Lorem ipsum dolor sit amet, consectetur
+                      adipiscing elit,
+                      sed do eismod tempor incididunt ut labore et
+                      dolore magna.</div>
+                  </div>
+
+                </div>
+                <div class="owl-item active" style="width: 212px; margin-left: 17px;">
+                  <div class="about__item about">
+                    <div class="about__avatar">
+                      <img src="assets/images/OIG1.jpeg" style='height:304px;' alt="">
+                    </div>
+                    <span> </span>
+                    <div class="about__name m-2 text-center"><em>our Team</em></div>
+                    <span> </span>
+                    <div class="about__position text-muted m-2 text-center">Lorem ipsum dolor sit amet, consectetur
+                      adipiscing elit,
+                      sed do eismod tempor incididunt ut labore et
+                      dolore magna.</div>
+                  </div>
+
+                </div>
+                <div class="owl-item active" style="width: 212px; margin-left: 17px;">
+                  <div class="about__item about">
+                    <div class="about__avatar">
+                      <img src="assets/images/OIG1.jpeg" style='height:304px;' alt="">
+                    </div>
+                    <span> </span>
+                    <div class="about__name m-2 text-center"><em>our Team</em></div>
+                    <span> </span>
+                    <div class="about__position text-muted m-2 text-center">Lorem ipsum dolor sit amet, consectetur
+                      adipiscing elit,
+                      sed do eismod tempor incididunt ut labore et
+                      dolore magna.</div>
+                  </div>
+
+                </div>
+                <div class="owl-item active" style="width: 212px; margin-left: 17px;">
+                  <div class="about__item about">
+                    <div class="about__avatar">
+                      <img src="assets/images/OIG1.jpeg" style='height:304px;' alt="">
+                    </div>
+                    <span> </span>
+                    <div class="about__name m-2 text-center"><em>our Team</em></div>
+                    <span> </span>
+                    <div class="about__position text-muted m-2 text-center">Lorem ipsum dolor sit amet, consectetur
+                      adipiscing elit,
+                      sed do eismod tempor incididunt ut labore et
+                      dolore magna.</div>
+                  </div>
+
+                </div>
+                <div class="owl-item active" style="width: 212px; margin-left: 17px;">
+                  <div class="about__item about">
+                    <div class="about__avatar">
+                      <img src="assets/images/OIG1.jpeg" style='height:304px;' alt="">
+                    </div>
+                    <span> </span>
+                    <div class="about__name m-2 text-center"><em>our Team</em></div>
+                    <span> </span>
+                    <div class="about__position text-muted m-2 text-center">Lorem ipsum dolor sit amet, consectetur
+                      adipiscing elit,
+                      sed do eismod tempor incididunt ut labore et
+                      dolore magna.</div>
+                  </div>
+
+                </div>
+                <div class="owl-item active" style="width: 212px; margin-left: 17px;">
+                  <div class="about__item about">
+                    <div class="about__avatar">
+                      <img src="assets/images/OIG1.jpeg" style='height:304px;' alt="">
+                    </div>
+                    <span> </span>
+                    <div class="about__name m-2 text-center"><em>our Team</em></div>
+                    <span> </span>
+                    <div class="about__position text-muted m-2 text-center">Lorem ipsum dolor sit amet, consectetur
+                      adipiscing elit,
+                      sed do eismod tempor incididunt ut labore et
+                      dolore magna.</div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-12">
+      <div id="services" class="services servicess section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+              <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+                <h4>Amazing <em>Services &amp; Features</em> </h4>
+                <img src="assets/images/heading-line-dec.png" alt="">
+                <p>If you need the greatest collection of HTML templates for your business, please visit <a
+                    rel="nofollow" href="https://www.toocss.com/" target="_blank">TooCSS</a> Blog. If you need to have a
+                  contact form PHP
+                  script, go to <a href="https://templatemo.com/contact" target="_parent">our contact page</a> for more
+                  information.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="about-us__services services" id="services_slider" data-layout="horizontal"
+              data-mobile-grid-columns="1">
+              <div class="owl-carousel owl-loaded owl-drag" id="">
+                <div class="owl-stage-outer">
+                  <div class="owl-stage" id="servicesdata"
+                    style="transform: translate3d(0px, 0px, 0px); width: 769px;padding: 10px 1px;">
+                    <div class="owl-item active" style="width: 212px; margin-left: 12px;height: 313px;">
+                      <div class="service-item first-service"
+                        style="background-image: url(assets/images/download.jpeg);background-repeat: no-repeat;background-size: cover;align-content: end;position: relative;margin: 9px;background-position:center center;overflow: hidden;">
+                        <h4><em>App Maintenance</em></h4>
+                        <p>You are not allowed to redistribute this template ZIP file on any other website.</p>
+                        <div class="text-button">
+                          <a href="#">Read More <i class="fa fa-arrow-right"></i><i class="fa fa-arrow-left"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="owl-item active" style="width: 212px; margin-left: 12px;height: 313px;">
+                      <div class="service-item second-service"
+                        style="background-image: url(assets/images/images.jpeg);background-repeat: no-repeat;background-size: cover;align-content: end;position: relative;margin: 9px;background-position:center center;overflow: hidden;">
+                        <h4><em>Rocket Speed of App</em></h4>
+                        <p>You are allowed to use the Chain App Dev HTML template. Feel free to modify or edit this
+                          layout.
+                        </p>
+                        <div class="text-button">
+                          <a href="#">Read More <i class="fa fa-arrow-right"></i><i class="fa fa-arrow-left"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="owl-item active" style="width: 212px; margin-left: 12px;height: 313px;">
+                      <div class="service-item third-service"
+                        style="background-image: url(assets/images/Construction-Services.webp);background-repeat: no-repeat;background-size: cover;align-content: end;position: relative;margin: 9px;background-position:center center;overflow: hidden;">
+                        <h4><em>Multi Workflow Idea</em></h4>
+                        <p>If this template is beneficial for your work, please support us <a rel="nofollow"
+                            href="https://paypal.me/templatemo" target="_blank">a little via PayPal</a>. Thank you.</p>
+                        <div class="text-button">
+                          <a href="#">Read More <i class="fa fa-arrow-right"></i><i class="fa fa-arrow-left"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="owl-item active" style="width: 212px; margin-left: 12px;height: 313px;">
+                      <div class="service-item fourth-service"
+                        style="background-image: url(assets/images/service.jpg);background-repeat: no-repeat;background-size: cover;align-content: end;position: relative;margin: 9px;background-position:center center;overflow: hidden;">
+                        <h4><em>24/7 Help &amp; Support</em></h4>
+                        <p>Lorem ipsum dolor consectetur adipiscing elit sedder williamsburg photo booth quinoa and
+                          fashion
+                          axe.</p>
+                        <div class="text-button">
+                          <a href="#">Read More <i class="fa fa-arrow-right"></i><i class="fa fa-arrow-left"></i></a>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- <div id="about" class="about-us section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 align-self-center">
+          <div class="section-heading">
+            <h4>About <em>What We Do</em> &amp; Who We Are</h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et
+              dolore magna.</p>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="box-item">
+                <h4><a href="#">Maintance Problems</a></h4>
+                <p>Lorem Ipsum Text</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="box-item">
+                <h4><a href="#">24/7 Support &amp; Help</a></h4>
+                <p>Lorem Ipsum Text</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="box-item">
+                <h4><a href="#">Fixing Issues About</a></h4>
+                <p>Lorem Ipsum Text</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="box-item">
+                <h4><a href="#">Co. Development</a></h4>
+                <p>Lorem Ipsum Text</p>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor idunte ut labore et
+                dolore adipiscing magna.</p>
+              <div class="gradient-button">
+                <a href="#">Start 14-Day Free Trial</a>
+              </div>
+              <span>*No Credit Card Required</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="right-image">
+            <img src="assets/images/about-right-dec.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <div class="contaier mt-5" id="vision">
+    <div class="row justify-content-center ">
+      <div class="col-lg-8 offset-lg-2">
+        <div class="section-heading  wow fadeInDown text-center" data-wow-duration="1s" data-wow-delay="0.5s">
+          <h4> <em>Our vision</em></h4>
+          <img src="assets/images/heading-line-dec.png" alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et
+            dolore magna.</p>
+        </div>
+      </div>
+
+    </div>
+    <div class="row mt-5 our-vision mt-3">
+      <div class="col-lg-4">
+        <img src="assets/images/vision.png" style="height: auto;" alt="our vision">
+      </div>
+      <div class="col-lg-8">
+        <p>
+          We envision a future where:
+        </p>
+        <ul class="vision-list">
+          <li>
+            <strong>Innovation:</strong> Continually pushing the boundaries of technology to create groundbreaking
+            solutions that drive progress.
+          </li>
+          <li>
+            <strong>Sustainability:</strong> Prioritizing environmental responsibility in every aspect of our work,
+            ensuring a better planet for future generations.
+          </li>
+          <li>
+            <strong>Community:</strong> Building strong, supportive communities that work together towards common goals
+            and shared success.
+          </li>
+          <li>
+            <strong>Empowerment:</strong> Enabling individuals and organizations to achieve their full potential through
+            access to the best tools, resources, and opportunities.
+          </li>
+          <li>
+            <strong>Excellence:</strong> Fostering a culture of continuous improvement, where high standards are the
+            norm and excellence is always within reach.
+          </li>
+        </ul>
+        <p>
+          Together, we strive to make a lasting impact on the world, shaping a future where everyone can thrive.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col-lg-12">
+      <div id="mission" class="mission section pt-3">
+        <div class="container">
+
+          <div class="row justify-content-center">
+            <div class="col-lg-8 offset-lg-2">
+              <div class="section-heading  wow fadeInDown text-center" data-wow-duration="1s" data-wow-delay="0.5s">
+                <h4> <em>Our Mission</em> </h4>
+                <img src="assets/images/heading-line-dec.png" alt="">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="about-us__mission mission" id="mission_slider" data-layout="grid-4"
+              data-mobile-grid-columns="1">
+              <div class="owl-carousel owl-loaded owl-drag" id="">
+                <div class="owl-stage-outer">
+                  <div class="owl-stage" id="missiondata"
+                    style="transform: translate3d(0px, 0px, 0px); width: 769px;padding: 10px 1px;">
+                    <div class="owl-item active" style="width: 212px; margin-left: 12px;height: 313px;">
+                      <div class="service-item first-service"
+                        style="background-image: url(assets/images/download.jpeg);background-repeat: no-repeat;background-size: cover;align-content: end;position: relative;margin: 9px;background-position:center center;overflow: hidden;">
+                        <h4><em>App Maintenance</em></h4>
+                        <p>You are not allowed to redistribute this template ZIP file on any other website.</p>
+                        <div class="text-button">
+                          <a href="#">Read More <i class="fa fa-arrow-right"></i><i class="fa fa-arrow-left"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="owl-item active" style="width: 212px; margin-left: 12px;height: 313px;">
+                      <div class="service-item second-service"
+                        style="background-image: url(assets/images/images.jpeg);background-repeat: no-repeat;background-size: cover;align-content: end;position: relative;margin: 9px;background-position:center center;overflow: hidden;">
+                        <h4><em>Rocket Speed of App</em></h4>
+                        <p>You are allowed to use the Chain App Dev HTML template. Feel free to modify or edit this
+                          layout.
+                        </p>
+                        <div class="text-button">
+                          <a href="#">Read More <i class="fa fa-arrow-right"></i><i class="fa fa-arrow-left"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="owl-item active" style="width: 212px; margin-left: 12px;height: 313px;">
+                      <div class="service-item third-service"
+                        style="background-image: url(assets/images/Construction-Services.webp);background-repeat: no-repeat;background-size: cover;align-content: end;position: relative;margin: 9px;background-position:center center;overflow: hidden;">
+                        <h4><em>Multi Workflow Idea</em></h4>
+                        <p>If this template is beneficial for your work, please support us <a rel="nofollow"
+                            href="https://paypal.me/templatemo" target="_blank">a little via PayPal</a>. Thank you.</p>
+                        <div class="text-button">
+                          <a href="#">Read More <i class="fa fa-arrow-right"></i><i class="fa fa-arrow-left"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="owl-item active" style="width: 212px; margin-left: 12px;height: 313px;">
+                      <div class="service-item fourth-service"
+                        style="background-image: url(assets/images/service.jpg);background-repeat: no-repeat;background-size: cover;align-content: end;position: relative;margin: 9px;background-position:center center;overflow: hidden;">
+                        <h4><em>24/7 Help &amp; Support</em></h4>
+                        <p>Lorem ipsum dolor consectetur adipiscing elit sedder williamsburg photo booth quinoa and
+                          fashion
+                          axe.</p>
+                        <div class="text-button">
+                          <a href="#">Read More <i class="fa fa-arrow-right"></i><i class="fa fa-arrow-left"></i></a>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div id="pricing" class="pricing-tables">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading">
+            <h4>We Have The Best Pre-Order <em>Prices</em> You Can Get</h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et
+              dolore magna.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="pricing-item-regular">
+            <span class="price">$12</span>
+            <h4>Standard Plan App</h4>
+            <div class="icon">
+              <img src="assets/images/pricing-table-01.png" alt="">
+            </div>
+            <ul>
+              <li>Lorem Ipsum Dolores</li>
+              <li>20 TB of Storage</li>
+              <li class="non-function">Life-time Support</li>
+              <li class="non-function">Premium Add-Ons</li>
+              <li class="non-function">Fastest Network</li>
+              <li class="non-function">More Options</li>
+            </ul>
+            <div class="border-button">
+              <a href="#">Purchase This Plan Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="pricing-item-pro">
+            <span class="price">$25</span>
+            <h4>Business Plan App</h4>
+            <div class="icon">
+              <img src="assets/images/pricing-table-01.png" alt="">
+            </div>
+            <ul>
+              <li>Lorem Ipsum Dolores</li>
+              <li>50 TB of Storage</li>
+              <li>Life-time Support</li>
+              <li>Premium Add-Ons</li>
+              <li class="non-function">Fastest Network</li>
+              <li class="non-function">More Options</li>
+            </ul>
+            <div class="border-button">
+              <a href="#">Purchase This Plan Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="pricing-item-regular">
+            <span class="price">$66</span>
+            <h4>Premium Plan App</h4>
+            <div class="icon">
+              <img src="assets/images/pricing-table-01.png" alt="">
+            </div>
+            <ul>
+              <li>Lorem Ipsum Dolores</li>
+              <li>120 TB of Storage</li>
+              <li>Life-time Support</li>
+              <li>Premium Add-Ons</li>
+              <li>Fastest Network</li>
+              <li>More Options</li>
+            </ul>
+            <div class="border-button">
+              <a href="#">Purchase This Plan Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="partner" class="mt-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 offset-lg-2 text-center">
+          <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+            <h4> <em>Our Partners</em> </h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="about-us__partner partner" id="partner_slider" data-layout="horizontal_paner">
+          <div class="owl-carousel owl-loaded owl-drag" id="">
+            <div class="owl-stage-outer">
+              <div class="owl-stage" id="partnerdata"
+                style="transform: translate3d(0px, 0px, 0px);width: 769px; padding: 10px 1px;">
+                <div class="owl-item active" style=" margin-left: 12px;">
+                  <img src="assets/images/partener1.jpg">
+                </div>
+                <div class="owl-item active" style=" margin-left: 12px;">
+                  <img src="assets/images/partener2.jpg">
+                </div>
+                <div class="owl-item active" style=" margin-left: 12px;">
+                  <img src="assets/images/partener3.jpg">
+                </div>
+                <div class="owl-item active" style=" margin-left: 12px;">
+                  <img src="assets/images/partener4.jpg">
+                </div>
+                <div class="owl-item active" style=" margin-left: 12px;">
+                  <img src="assets/images/partener5.jpg">
+                </div>
+                <div class="owl-item active" style="margin-left: 12px;">
+                  <img src="assets/images/partener6.jpg">
+                </div>
+                <div class="owl-item active" style="margin-left: 12px;">
+                  <img src="assets/images/partener7.jpg">
+                </div>
+                <div class="owl-item active" style=" margin-left: 12px;">
+                  <img src="assets/images/partener4.jpg">
+                </div>
+                <div class="owl-item active" style=" margin-left: 12px;">
+                  <img src="assets/images/partener5.jpg">
+                </div>
+                <div class="owl-item active" style="margin-left: 12px;">
+                  <img src="assets/images/partener6.jpg">
+                </div>
+                <div class="owl-item active" style="margin-left: 12px;">
+                  <img src="assets/images/partener7.jpg">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div id="clients" class="mt-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 offset-lg-2 text-center">
+          <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+            <h4> <em>Our Clients</em> </h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="about-us__clients clients" id="clients_slider" data-layout="horizontal_paner">
+          <div class="owl-carousel owl-loaded owl-drag" id="">
+            <div class="owl-stage-outer">
+              <div class="owl-stage" id="clientsdata"
+                style="transform: translate3d(0px, 0px, 0px);width: 769px; padding: 10px 1px;">
+                <div class="owl-item active" style=" margin-left: 12px;">
+                  <img src="assets/images/partener1.jpg">
+                </div>
+                <div class="owl-item active" style=" margin-left: 12px;">
+                  <img src="assets/images/partener2.jpg">
+                </div>
+                <div class="owl-item active" style=" margin-left: 12px;">
+                  <img src="assets/images/partener3.jpg">
+                </div>
+                <div class="owl-item active" style=" margin-left: 12px;">
+                  <img src="assets/images/partener4.jpg">
+                </div>
+                <div class="owl-item active" style=" margin-left: 12px;">
+                  <img src="assets/images/partener5.jpg">
+                </div>
+                <div class="owl-item active" style="margin-left: 12px;">
+                  <img src="assets/images/partener6.jpg">
+                </div>
+                <div class="owl-item active" style="margin-left: 12px;">
+                  <img src="assets/images/partener7.jpg">
+                </div>
+                <div class="owl-item active" style=" margin-left: 12px;">
+                  <img src="assets/images/partener4.jpg">
+                </div>
+                <div class="owl-item active" style=" margin-left: 12px;">
+                  <img src="assets/images/partener5.jpg">
+                </div>
+                <div class="owl-item active" style="margin-left: 12px;">
+                  <img src="assets/images/partener6.jpg">
+                </div>
+                <div class="owl-item active" style="margin-left: 12px;">
+                  <img src="assets/images/partener7.jpg">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div id="clients_review" class="the-clients">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading">
+            <h4>Check What <em>The Clients Say</em> About Our App Dev</h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et
+              dolore magna.</p>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="naccs">
+            <div class="grid">
+              <div class="row">
+                <div class="col-lg-7 align-self-center">
+                  <div class="menu">
+                    <div class="first-thumb active">
+                      <div class="thumb">
+                        <div class="row">
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <h4>David Martino Co</h4>
+                            <span class="date">30 November 2021</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 d-none d-sm-block">
+                            <span class="category">Financial Apps</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <span class="rating">4.8</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="thumb">
+                        <div class="row">
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <h4>Jake Harris Nyo</h4>
+                            <span class="date">29 November 2021</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 d-none d-sm-block">
+                            <span class="category">Digital Business</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <span class="rating">4.5</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="thumb">
+                        <div class="row">
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <h4>May Catherina</h4>
+                            <span class="date">27 November 2021</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 d-none d-sm-block">
+                            <span class="category">Business &amp; Economics</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <span class="rating">4.7</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="thumb">
+                        <div class="row">
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <h4>Random User</h4>
+                            <span class="date">24 November 2021</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 d-none d-sm-block">
+                            <span class="category">New App Ecosystem</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <span class="rating">3.9</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="last-thumb">
+                      <div class="thumb">
+                        <div class="row">
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <h4>Mark Amber Do</h4>
+                            <span class="date">21 November 2021</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 d-none d-sm-block">
+                            <span class="category">Web Development</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <span class="rating">4.3</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-5">
+                  <ul class="nacc">
+                    <li class="active">
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="client-content">
+                                <img src="assets/images/quote.png" alt="">
+                                <p>“Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor idunte
+                                  ut labore et dolore magna aliqua darwin kengan
+                                  lorem ipsum dolor sit amet, consectetur picing elit massive big blasta.”</p>
+                              </div>
+                              <div class="down-content">
+                                <img src="assets/images/client-image.jpg" alt="">
+                                <div class="right-content">
+                                  <h4>David Martino</h4>
+                                  <span>CEO of David Company</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="client-content">
+                                <img src="assets/images/quote.png" alt="">
+                                <p>“CTO, Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor
+                                  idunte ut labore et dolore magna aliqua darwin kengan
+                                  lorem ipsum dolor sit amet, consectetur picing elit massive big blasta.”</p>
+                              </div>
+                              <div class="down-content">
+                                <img src="assets/images/client-image.jpg" alt="">
+                                <div class="right-content">
+                                  <h4>Jake H. Nyo</h4>
+                                  <span>CTO of Digital Company</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="client-content">
+                                <img src="assets/images/quote.png" alt="">
+                                <p>“May, Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor
+                                  idunte ut labore et dolore magna aliqua darwin kengan
+                                  lorem ipsum dolor sit amet, consectetur picing elit massive big blasta.”</p>
+                              </div>
+                              <div class="down-content">
+                                <img src="assets/images/client-image.jpg" alt="">
+                                <div class="right-content">
+                                  <h4>May C.</h4>
+                                  <span>Founder of Catherina Co.</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="client-content">
+                                <img src="assets/images/quote.png" alt="">
+                                <p>“Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor idunte
+                                  ut labore et dolore magna aliqua darwin kengan
+                                  lorem ipsum dolor sit amet, consectetur picing elit massive big blasta.”</p>
+                              </div>
+                              <div class="down-content">
+                                <img src="assets/images/client-image.jpg" alt="">
+                                <div class="right-content">
+                                  <h4>Random Staff</h4>
+                                  <span>Manager, Digital Company</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="client-content">
+                                <img src="assets/images/quote.png" alt="">
+                                <p>“Mark, Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor
+                                  idunte ut labore et dolore magna aliqua darwin kengan
+                                  lorem ipsum dolor sit amet, consectetur picing elit massive big blasta.”</p>
+                              </div>
+                              <div class="down-content">
+                                <img src="assets/images/client-image.jpg" alt="">
+                                <div class="right-content">
+                                  <h4>Mark Am</h4>
+                                  <span>CTO, Amber Do Company</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5" id="contact-us">
+    <div class="row justify-content-center ">
+      <div class="col-lg-8 offset-lg-2">
+        <div class="section-heading text-center">
+          <h4> <em>Contact Us</em></h4>
+          <img src="assets/images/heading-line-dec.png" alt="">
+
+        </div>
+      </div>
+
+    </div>
+    <div class="row mt-3">
+      <div class="col-lg-7">
+        <div class="block-map block">
+
+          <div class="block-map__body">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3478.073590443551!2d48.0062146!3d29.338839000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fcf9decd7b22433%3A0x58f5c38e900e09eb!2sAlbassam%20Complexes!5e0!3m2!1sar!2skw!4v1703833686583!5m2!1sar!2skw"
+              class="Cmap_link" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+            </iframe>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-5">
+        <div class="form-container">
+
+          <form id="myform">
+            <div class="mb-3">
+              <label for="phone" class="form-label contentauto" data-contenten="Phone"
+                data-contentar="الهاتف /الايميل">Name</label>
+              <input type="text" class="form-control" data-oldval="" id="Name" name="Name" required>
+            </div>
+            <div class="mb-3">
+              <label for="phone" class="form-label contentauto" data-contenten="Phone"
+                data-contentar="الهاتف /الايميل">Phone</label>
+              <input type="tel" class="form-control" data-oldval="" id="phone" name="phone" required>
+            </div>
+            <div class="mb-3">
+              <label for="phone" class="form-label contentauto" data-contenten="Phone"
+                data-contentar="الهاتف /الايميل">Email</label>
+              <input type="email" class="form-control" data-oldval="" id="Email" name="Email" required>
+            </div>
+            <div class="mb-3">
+              <label for="description" class="form-label contentauto" data-contenten="Notes"
+                data-contentar="الملاحظات">Notes</label>
+              <textarea class="form-control" id="description" name="description" rows="6"></textarea>
+            </div>
+            <div class="text-center">
+              <button type="submit" id="myformbtn" class="btn btn-primary contentauto" data-contenten="Send"
+                data-contentar="أرسال">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <footer id="newsletter">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading">
+            <h4>Join our mailing list to receive the news &amp; latest trends</h4>
+          </div>
+        </div>
+        <!-- <div class="col-lg-6 offset-lg-3">
+          <form id="search" action="#" method="GET">
+            <div class="row">
+              <div class="col-lg-6 col-sm-6">
+                <fieldset>
+                  <input type="address" name="address" class="email" placeholder="Email Address..." autocomplete="on"
+                    required>
+                </fieldset>
+              </div>
+              <div class="col-lg-6 col-sm-6">
+                <fieldset>
+                  <button type="submit" class="main-button">Subscribe Now <i class="fa fa-angle-right"></i><i
+                      class="fa fa-angle-left"></i></button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div> -->
+      </div>
+
+      <div class="row justify-content-around">
+        <div class="col-lg-3 text-center">
+          <div class="footer-widget">
+            <h4>Contact Us</h4>
+            <!-- <p>Rio de Janeiro - RJ, 22795-008, Brazil</p>
+            <p><a href="#">010-020-0340</a></p>
+            <p><a href="#">info@company.co</a></p> -->
+            <div class="contact-icons d-flex gap-4 justify-content-around">
+              <a href="tel:+1234567890"><i class="fa-solid fa-phone fa-xl" style="color: #008000;"></i></a>
+              <a href="mailto:example@mail.com"><i class="fa-solid fa-envelope fa-xl" style="color: #008000;"></i></a>
+              <a href="https://wa.me/1234567890" target="_blank"><i class="fa-brands fa-whatsapp fa-xl"
+                  style="color: #008000;"></i></a>
+              <a href="https://www.facebook.com/yourprofile" target="_blank"><i class="fa-brands fa-facebook fa-xl"
+                  style="color: #008000;"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footer-widget">
+            <h4>About Us</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Testimonials</a></li>
+              <li><a href="#">Pricing</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Testimonials</a></li>
+              <li><a href="#">Pricing</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- <div class="col-lg-3">
+          <div class="footer-widget">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Free Apps</a></li>
+              <li><a href="#">App Engine</a></li>
+              <li><a href="#">Programming</a></li>
+              <li><a href="#">Development</a></li>
+              <li><a href="#">App News</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">App Dev Team</a></li>
+              <li><a href="#">Digital Web</a></li>
+              <li><a href="#">Normal Apps</a></li>
+            </ul>
+          </div>
+        </div> -->
+        <div class="col-lg-3">
+          <div class="footer-widget">
+            <h4>About Our Company</h4>
+            <div class="logo">
+              <img src="assets/images/white-logo.png" alt="">
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore.</p>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="copyright-text">
+            <p>Copyright © 2022 Chain App Dev Company. All Rights Reserved.
+              <br>Design: <a href="https://templatemo.com/" target="_blank" title="css templates">TemplateMo</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scripts -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/imagesloaded.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script src="assets/js/site.js"></script>
+</body>
+
+</html>
