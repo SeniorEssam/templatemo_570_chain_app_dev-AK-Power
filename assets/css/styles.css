@@ -6170,6 +6170,9 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-origin {
 }
 
 .topbar__item-value {
+  cursor: pointer;
+    display: flex;
+    align-items: center;
   color: #1a66ff;
   transition: all .1s
 }

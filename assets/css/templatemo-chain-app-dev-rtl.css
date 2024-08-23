@@ -108,7 +108,9 @@ figcaption {
   border: 0;
   outline: 0;direction: rtl;
 }
-
+.topbar-drobdown__btn-ar{
+  display: none;
+}
 /* clear fix */
 .grid:after {
   content: "";
@@ -429,6 +431,7 @@ header
 
 .header-area .main-nav .logo {
   float: right;
+  margin-right: 30px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -483,12 +486,12 @@ header
   font-weight: 400;
 }
 
-.header-area .main-nav .nav li:last-child a:hover,
+/* .header-area .main-nav .nav li:last-child a:hover,
 .background-header .main-nav .nav li:last-child a:hover,
 .header-area .main-nav .nav li:nth-child(6) a:hover,
 .background-header .main-nav .nav li:nth-child(6) a:hover {
   color: #fff !important;
-}
+} */
 
 .header-area .main-nav .nav li a {
   display: block;
