@@ -108,6 +108,112 @@ figcaption {
   border: 0;
   outline: 0;direction: ltr;
 }
+.topbar {
+  height: 32px;
+  background: #f7f7f7;
+  box-shadow: none;
+  border-bottom: none;
+  font-size: 14px;
+  line-height: 14px;
+  color: #737373;
+  position: relative;
+  z-index: 20
+}
+
+.topbar__container {
+  height: 100%
+}
+
+.topbar__item,.topbar__row {
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0
+}
+
+.topbar__item-value {
+  cursor: pointer;
+    display: flex;
+    align-items: center;
+  color: #1a66ff;
+  transition: all .1s
+}
+
+.topbar__spring {
+  -ms-flex-positive: 1;
+  flex-grow: 1
+}
+
+.topbar__item--link+.topbar__item--link {
+  margin-right: 16px
+}
+
+.topbar-dropdown,.topbar-dropdown__btn {
+  position: relative;
+  height: 100%
+}
+
+.topbar-dropdown__btn {
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: all .1s;
+  background: transparent;
+  color: inherit;
+  fill: #bfbfbf;
+  padding-right: 10px;
+  padding-left: 20px
+}
+
+.topbar-dropdown__btn:focus {
+  outline: none
+}
+
+.topbar-dropdown__btn svg {
+  position: absolute;
+  top: calc(50% - 4px);
+  left: 7px
+}
+
+.topbar-dropdown__body {
+  position: absolute;
+  top: 100%;
+  visibility: hidden;
+  transform-origin: top;
+  transform: rotateX(60deg);
+  opacity: 0;
+  transition: transform .2s,opacity .2s,visibility 0s .2s;
+  left: 0
+}
+
+.topbar-dropdown--opened .topbar-dropdown__btn,.topbar-dropdown__btn:focus,.topbar-dropdown__btn:hover {
+  background: #ebebeb;
+  color: #3d464d;
+  fill: #999
+}
+
+.topbar-dropdown--opened .topbar-dropdown__btn .topbar__item-value,.topbar-dropdown__btn:focus .topbar__item-value,.topbar-dropdown__btn:hover .topbar__item-value {
+  color: #1a66ff
+}
+
+.topbar-dropdown--opened .topbar-dropdown__body {
+  z-index: 1;
+  transition-delay: 0s,0s,0s;
+  opacity: 1;
+  visibility: visible;
+  transform: rotateX(0deg)
+}
+
+.topbar-link {
+  color: inherit;
+  transition: color .3s
+}
+
+.topbar-link:hover {
+  color: #1a66ff
+}
 
 /* clear fix */
 .grid:after {
@@ -431,8 +537,6 @@ header
 
 .header-area .main-nav .logo {
   float: left;
-  
-  margin-right: 30px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
