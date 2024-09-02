@@ -18,6 +18,8 @@ function owloptionold(elem) {
     $(function () {
         $(`#${elem}`).each(function () {
             const layout = $(this).data('layout');
+            const loop = $(this).data('loop')?? true;
+            const autoplay = $(this).data('autoPlay')?? true;
             const options = {
                 items: 4,
                 margin: 14,

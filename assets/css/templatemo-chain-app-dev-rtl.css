@@ -108,6 +108,18 @@ figcaption {
   border: 0;
   outline: 0;direction: rtl;
 }
+.owl-stage-outer {
+  display: grid !important;
+  flex-direction: row;
+  justify-content: center;
+}
+@media (max-width: 767px) {
+  .owl-stage-outer {
+      display: grid !important;
+      flex-direction: row;
+      justify-content: start;
+  }
+}
 .topbar-drobdown__btn-ar{
   display: none;
 }
@@ -508,14 +520,10 @@ header
   height: 1px;
   background-color: var(--primary-color);
   content: "";
-  right: 50%;
+  right: 0;
   bottom: -20px;
-  transform: translateX(-50%);
 }
 
-.background-header .nav li:last-child a.active:after {
-  background-color: transparent;
-}
 
 .header-area {
   background-color: transparent;
@@ -621,9 +629,6 @@ header
   color: var(--primary-color) !important;
 }
 
-.header-area .main-nav .nav li:last-child a.active {
-  color: #fff !important;
-}
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
@@ -1207,6 +1212,51 @@ Services Style
   position: absolute;
   left: 0;
   top: -250px;
+  width: 1136px;
+  height: 244px;
+  z-index: 0;
+  opacity: 0.6;
+}
+.before1 {
+  position: relative;
+}
+.before1:before {
+  content: "";
+  background-image: url(../images/services-right-dec-1.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1136px;
+  height: 244px;
+  z-index: 0;
+  opacity: 0.6;
+}
+.before2 {
+  position: relative;
+}
+.before2:before {
+  content: "";
+  background-image: url(../images/services-right-dec-2.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  top: -80px;
+  width: 1136px;
+  height: 244px;
+  z-index: 0;
+  opacity: 0.6;
+}
+.before3 {
+  position: relative;
+}
+.before3:before {
+  content: "";
+  background-image: url(../images/services-right-dec-3.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  top: 0;
   width: 1136px;
   height: 244px;
   z-index: 0;
@@ -1931,7 +1981,6 @@ PopUp
 }
 
 .btn {
-  padding: 10px 20px;
   background: var(--primary-color);
   color: #fff;
   transition: all 0.3s;
